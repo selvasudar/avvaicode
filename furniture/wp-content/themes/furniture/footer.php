@@ -12,6 +12,7 @@
 <?php get_template_part( 'template-parts/widget', 'sidebar' ); ?>
 <?php get_template_part( 'template-parts/widget', 'footer' ); ?>
 <?php emulsion_the_theme_supports( 'footer-svg' )  ? get_template_part( 'images/svg' ) : ''; ?>	
+ramalakshmi
 <?php wp_footer(); ?>
 	</body>
 </html>
