@@ -7,8 +7,9 @@ if ($is_sidebar_template) {
     get_template_part('partials/template', 'full-width');
 }
 ?>
-<section class="comment-section">
-    <div class="container text-center">
+
+<section class="comment-section text-center">
+    <div class="container">
         <h3>Comments</h3>
         <?php comments_template(); ?>
     </div>
