@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'furniture' );
+define( 'DB_NAME', 'furniture_db' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -77,7 +77,7 @@ $table_prefix = 'fn_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
+define( 'WP_DEBUG', false );
 
 /* That's all, stop editing! Happy publishing. */
 
