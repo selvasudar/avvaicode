@@ -7,6 +7,9 @@ get_header();
 <section class="blog-cards">
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <?php dynamic_sidebar('thirukural-widget-area'); ?>
+            </div>
             <div class="col-12 text-center">
                 <h1>SSHN Blogs</h1>
             </div>

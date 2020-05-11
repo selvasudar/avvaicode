@@ -64,18 +64,18 @@ function footer_widgets_init()
 	register_sidebar(array(
 		'name' => __('Third Footer Widget Area', 'footer'),
 		'id' => 'third-footer-widget-area',
-		'description' => __('The third footer widget area', 'footer'),
+		'description' => __('The Third footer widget area', 'footer'),
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h6>',
 		'after_title' => '</h6>',
 	));
 
-	// Fourth footer widget area, located in the footer.
+	// Thirukkural widget area, located in the blog page.
 	register_sidebar(array(
-		'name' => __('Fourth Footer Widget Area', 'footer'),
-		'id' => 'fourth-footer-widget-area',
-		'description' => __('The fourth footer widget area', 'footer'),
+		'name' => __('Thirukkural Widget Area', 'footer'),
+		'id' => 'thirukural-widget-area',
+		'description' => __('Thirukkural widget area', 'footer'),
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h6>',
