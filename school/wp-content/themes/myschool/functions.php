@@ -89,8 +89,15 @@ add_action( 'wp_enqueue_scripts', 'include_css_js' );
 
 function include_css_js() {
     
-    wp_enqueue_style( 'cssfile', STYLES_URI.'bootstrap/bootstrap.min.css', array(), 234.0 );
+	wp_enqueue_style( 'cssfile1', STYLES_URI.'bootstrap/bootstrap.min.css', array(), 234.0 );
+	wp_enqueue_style( 'cssfile2', STYLES_URI.'school/style.css', array(), 234.0 );
     wp_enqueue_script( 'jsfile1', SCRIPTS_URI.'jquery.min.js', array(), 234.0 );
     wp_enqueue_script( 'jsfile2', SCRIPTS_URI.'bootstrap/bootstrap.min.js', array(), 234.0 );
+}
+
+
+add_action( 'after_setup_theme', 'add_featured_img' );
+function add_featured_img() {
+    add_theme_support( 'post-thumbnails');
 }
 ?>
