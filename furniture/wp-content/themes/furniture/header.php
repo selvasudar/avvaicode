@@ -38,7 +38,7 @@
 					<div class="col-md-3">
 						<div class="header-logo">
 							<a href="#" class="logo">
-								<img src="<?php echo IMAGES_URI; ?>/logo.png" alt="">
+								<img src="<?php echo IMAGES_URI; ?>/lo.png" alt="" width="90px">
 							</a>
 						</div>
 

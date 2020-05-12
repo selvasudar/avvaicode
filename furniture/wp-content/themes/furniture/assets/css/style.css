@@ -294,6 +294,7 @@ textarea.input {
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #1E1F29
 }
 
 .section-title {
@@ -446,7 +447,7 @@ textarea.input {
 #header {
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #15161D;
+  background-color:rgba(230, 223, 207, 0.13);
 }
 
 .header-logo {
@@ -622,7 +623,7 @@ textarea.input {
 #navigation {
   background: #FFF;
   border-bottom: 2px solid #E4E7ED;
-  border-top: 3px solid #D10024;
+  border-top: 3px solid rgb(151, 16, 140);
 }
 
 /*----------------------------*\
@@ -638,7 +639,7 @@ textarea.input {
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
-  color: #D10024;
+  color:#AE06F8;
   background-color: transparent;
 }
 
@@ -647,7 +648,7 @@ textarea.input {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #D10024;
+  background-color: #AE06F8;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
@@ -2031,13 +2032,13 @@ textarea.input {
 
 .footer-links li i {
   margin-right: 15px;
-  color: #D10024;
+  color: #9100D1;
   width: 14px;
   text-align: center;
 }
 
 .footer-links li a:hover {
-  color: #D10024;
+  color: #9100D1;
 }
 
 .copyright {
