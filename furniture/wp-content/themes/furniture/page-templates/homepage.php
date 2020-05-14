@@ -62,7 +62,9 @@
 					<div class="col-md-4 col-xs-6">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop01.png" alt="">
+								<img src="<?php echo IMAGES_URI; ?>/shop01.png" alt="">
+								<!--<img src="./img/shop01.png" alt="">-->
+
 							</div>
 							<div class="shop-body">
 								<h3>Sofas<br>Collection</h3>
@@ -76,7 +78,8 @@
 					<div class="col-md-4 col-xs-6">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop03.png" alt="">
+								<img src="<?php echo IMAGES_URI; ?>/shop03.png" alt="">
+								<!--<img src="./img/shop03.png" alt="">-->
 							</div>
 							<div class="shop-body">
 								<h3>Chairs<br>Collection</h3>
@@ -90,7 +93,8 @@
 					<div class="col-md-4 col-xs-6">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop02.png" alt="">
+								<img src="<?php echo IMAGES_URI; ?>/shop02.png" alt="">
+								<!--<img src="/img/shop02.png" alt="">-->
 							</div>
 							<div class="shop-body">
 								<h3>Cabinery<br>Collection</h3>
@@ -118,12 +122,12 @@
 						<div class="section-title">
 							<h3 class="title">New Products</h3>
 							<div class="section-nav">
-								<ul class="section-tab-nav tab-nav">
+							<!--	<ul class="section-tab-nav tab-nav">
 									<li class="active"><a data-toggle="tab" href="#tab1">Sofas</a></li>
 									<li><a data-toggle="tab" href="#tab1">Chairs</a></li>
 									<li><a data-toggle="tab" href="#tab1">Cabinery</a></li>
 									<li><a data-toggle="tab" href="#tab1">Dining&Bar</a></li>
-								</ul>
+								</ul>-->
 							</div>
 						</div>
 					</div>
@@ -138,7 +142,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product01.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
+												<!--<img src="./img/product01.png" alt="">-->
 											<!--	<div class="product-label">
 													<span class="sale">-30%</span>
 													<span class="new">NEW</span>
@@ -170,7 +175,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product02.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product02.png" alt="">
+												<!--<img src="./img/product02.png" alt="">-->
 												<!--<div class="product-label">
 													<span class="new">NEW</span>
 												</div>-->
@@ -201,8 +207,9 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product03.png" alt="">
-												<!--<div class="product-label">
+												<img src="<?php echo IMAGES_URI; ?>/product03.png" alt="">
+												<!--<img src="./img/product03.png" alt="">
+												<div class="product-label">
 													<span class="sale">-30%</span>
 												</div>-->
 											</div>
@@ -227,7 +234,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product04.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product04.png" alt="">
+												<!--<img src="./img/product04.png" alt="">-->
 											</div>
 											<div class="product-body">
 												<p class="product-category">Category</p>
@@ -255,7 +263,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product05.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
+												<!--<img src="./img/product05.png" alt="">-->
 											</div>
 											<div class="product-body">
 												<p class="product-category">Category</p>
@@ -329,8 +338,9 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product06.png" alt="">
-												<!--<div class="product-label">
+												<img src="<?php echo IMAGES_URI; ?>/product06.png" alt="">
+												<!--<img src="./img/product06.png" alt="">
+												<div class="product-label">
 													<span class="sale">-30%</span>
 													<span class="new">NEW</span>
 												</div>-->
@@ -361,8 +371,9 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product07.png" alt="">
-												<!--<div class="product-label">
+												<img src="<?php echo IMAGES_URI; ?>/product07.png" alt="">
+												<!--<img src="./img/product07.png" alt="">
+												<div class="product-label">
 													<span class="new">NEW</span>
 												</div>-->
 											</div>
@@ -392,8 +403,9 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product08.png" alt="">
-												<!--<div class="product-label">
+												<img src="<?php echo IMAGES_URI; ?>/product08.png" alt="">
+												<!--<img src="./img/product08.png" alt="">
+												<div class="product-label">
 													<span class="sale">-30%</span>
 												</div>-->
 											</div>
@@ -418,7 +430,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product09.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product09.png" alt="">
+												<!--<img src="./img/product09.png" alt="">-->
 											</div>
 											<div class="product-body">
 												<p class="product-category">Category</p>
@@ -446,7 +459,8 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="./img/product01.png" alt="">
+												<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
+												<!--<img src="./img/product01.png" alt="">-->
 											</div>
 											<div class="product-body">
 												<p class="product-category">Category</p>
@@ -504,7 +518,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product07.png" alt="">
+										<!--<img src="./img/product07.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -517,7 +532,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product08.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product08.png" alt="">
+										<!--<img src="./img/product08.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -530,7 +546,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product09.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product09.png" alt="">
+										<!--<img src="./img/product09.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -545,7 +562,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
+										<!--<img src="./img/product01.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -558,7 +576,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product02.png" alt="">
+										<!--<img src="./img/product02.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -571,7 +590,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product03.png" alt="">
+										<!--<img src="./img/product03.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -597,7 +617,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product04.png" alt="">
+										<!--<img src="./img/product04.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -610,7 +631,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product05.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
+										<!--<img src="./img/product05.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -623,7 +645,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product06.png" alt="">
+										<!--<img src="./img/product06.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -638,7 +661,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product07.png" alt="">
+										<!--<img src="./img/product07.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -651,7 +675,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product08.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product08.png" alt="">
+										<!--<img src="./img/product08.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -664,7 +689,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product09.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product09.png" alt="">
+										<!--<img src="./img/product09.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -692,7 +718,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
+										<!--<img src="./img/product01.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -705,7 +732,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product02.png" alt="">
+										<!--<img src="./img/product02.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -718,7 +746,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product03.png" alt="">
+										<!--<img src="./img/product03.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -733,7 +762,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product04.png" alt="">
+										<!--<img src="./img/product04.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -746,7 +776,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product05.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
+										<!--<img src="./img/product05.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
@@ -759,7 +790,8 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="<?php echo IMAGES_URI; ?>/product06.png" alt="">
+										<!--<img src="./img/product06.png" alt="">-->
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>

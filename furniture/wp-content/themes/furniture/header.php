@@ -52,10 +52,10 @@
 						<div id="responsive-nav">
 							<!-- NAV -->
 							<ul class="main-nav nav navbar-nav">
-								<li class="active"><a href="/homepage">Home</a></li>
-								<li><a href="/aboutus">About Us</a></li>
-								<li><a href="/product">Products</a></li>
-								<li><a href="/contact">Contact</a></li>
+								<li class="active"><a href="http://localhost/sshn/furniture/homepage/">Home</a></li>
+								<li><a href="http://localhost/sshn/furniture/about/">About Us</a></li>
+								<li><a href="http://localhost/sshn/furniture/product">Products</a></li>
+								<li><a href="http://localhost/sshn/furniture/contact/">Contact</a></li>
 							</ul>
 							<!-- /NAV -->
 						</div>

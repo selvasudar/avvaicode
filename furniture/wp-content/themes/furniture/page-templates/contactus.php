@@ -8,8 +8,9 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
+				
 					<div class="col-md-12">
-						<h3 class="breadcrumb-header">contact</h3>
+						
 						<!--<ul class="breadcrumb-tree">
 							<li><a href="#">Home</a></li>
 							<li class="active">Blank</li>
@@ -28,6 +29,7 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
+				<div class="col-xs-12 col-md-offset-2 col-md-8">
 					<h3 class="breadcrumb-header">Contact Details</h3>
 					<div class="col-md-6 order-md-last d-flex">
 						<form action="#"  method="post" class="bg-white p-5 contact-form">
@@ -52,6 +54,7 @@
 				</div>
 				<!-- /row -->
 			</div>
+</div>
 			<!-- /container -->
 		</div>
 		<!-- /SECTION -->
