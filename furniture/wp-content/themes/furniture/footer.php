@@ -1,5 +1,7 @@
+<div class="clearfix"></div>
 <footer class="footer">
-	<div class="section">
+
+<div class="section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-6">
