@@ -8,14 +8,11 @@ wp_footer();
             <div class="col-12 col-md-4">
                 <?php dynamic_sidebar('first-footer-widget-area'); ?>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-4">
                 <?php dynamic_sidebar('second-footer-widget-area'); ?>
             </div>
             <div class="col-md-4">
                 <?php dynamic_sidebar('third-footer-widget-area'); ?>
-            </div>
-            <div class="col-md-2">
-                <?php dynamic_sidebar('fourth-footer-widget-area'); ?>
             </div>
         </div>
     </div>

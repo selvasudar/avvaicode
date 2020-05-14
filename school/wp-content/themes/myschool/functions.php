@@ -64,18 +64,18 @@ function footer_widgets_init()
 	register_sidebar(array(
 		'name' => __('Third Footer Widget Area', 'footer'),
 		'id' => 'third-footer-widget-area',
-		'description' => __('The third footer widget area', 'footer'),
+		'description' => __('The Third footer widget area', 'footer'),
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h6>',
 		'after_title' => '</h6>',
 	));
 
-	// Fourth footer widget area, located in the footer.
+	// Thirukkural widget area, located in the blog page.
 	register_sidebar(array(
-		'name' => __('Fourth Footer Widget Area', 'footer'),
-		'id' => 'fourth-footer-widget-area',
-		'description' => __('The fourth footer widget area', 'footer'),
+		'name' => __('Thirukkural Widget Area', 'footer'),
+		'id' => 'thirukural-widget-area',
+		'description' => __('Thirukkural widget area', 'footer'),
 		'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
 		'after_widget' => '</div>',
 		'before_title' => '<h6>',
@@ -89,8 +89,15 @@ add_action( 'wp_enqueue_scripts', 'include_css_js' );
 
 function include_css_js() {
     
-    wp_enqueue_style( 'cssfile', STYLES_URI.'bootstrap/bootstrap.min.css', array(), 234.0 );
+	wp_enqueue_style( 'cssfile1', STYLES_URI.'bootstrap/bootstrap.min.css', array(), 234.0 );
+	wp_enqueue_style( 'cssfile2', STYLES_URI.'school/style.css', array(), 234.0 );
     wp_enqueue_script( 'jsfile1', SCRIPTS_URI.'jquery.min.js', array(), 234.0 );
     wp_enqueue_script( 'jsfile2', SCRIPTS_URI.'bootstrap/bootstrap.min.js', array(), 234.0 );
+}
+
+
+add_action( 'after_setup_theme', 'add_featured_img' );
+function add_featured_img() {
+    add_theme_support( 'post-thumbnails');
 }
 ?>

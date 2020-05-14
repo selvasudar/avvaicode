@@ -8,7 +8,7 @@
     <header class="header">
         <nav class="navbar primary-navbar navbar-light navbar-expand-md">
             <a class="navbar-brand" href="/">
-                <img src="/logo.png" alt="sshn_logo">
+                <img src="<?php echo IMAGES_URI;?>/logo.jpeg" width="150" alt="sshn_logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".kissflow-navbar" aria-controls="kissflow-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
