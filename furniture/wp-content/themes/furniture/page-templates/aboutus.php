@@ -1,13 +1,13 @@
 <?php
-/***Template Name: Aboutus */
+
 	get_header();
 ?>
 
-	<div class="section">
-            <!-- container -->
+	<section class="section">
+            
             
 			<div class="container">
-				<!-- row -->
+				
 				<div class="row">
           <div class="col-xs-12 col-md-offset-2 col-md-8">
                     <h4 class="breadcrumb-header">About us</h4>
@@ -30,15 +30,11 @@
                 </div>
               </div>
                 
-				<!-- /row -->
+			
 			</div>
-			<!-- /container -->
-		</div>
-		<!-- /SECTION -->
-
-		<!-- NEWSLETTER -->
+			
+		</section>
 		
-		<!-- /NEWSLETTER -->
 <?php
 	get_footer();
 ?>

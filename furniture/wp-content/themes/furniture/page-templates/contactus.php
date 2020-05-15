@@ -1,16 +1,16 @@
 <?php
 
-/***Template Name: contact */
+
 get_header();
 ?>
 
 
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
+
+<section class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-8">
 				<h3 class="breadcrumb-header">Contact Details</h3>
@@ -35,16 +35,12 @@ get_header();
 
 				</div>
 			</div>
-			<!-- /row -->
+			
 		</div>
 	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
+	
+</section>
 
-<!-- NEWSLETTER -->
-
-<!-- /NEWSLETTER -->
 <?php
 get_footer();
 ?>
