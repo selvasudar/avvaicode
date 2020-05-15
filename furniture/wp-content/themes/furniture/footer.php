@@ -64,7 +64,12 @@
 <?php 
 	wp_footer();
 ?>
-
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/jquery.min.js"></script> -->
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/bootstrap.min.js"></script> -->
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/slick.min.js"></script> -->
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/nouislider.min.js"></script> -->
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/jquery.zoom.min.js"></script> -->
+	<!-- <script src="<?php //echo SCRIPTS_URI;?>/main.js"></script> -->
 </body>
 
 </html>

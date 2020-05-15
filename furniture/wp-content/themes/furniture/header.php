@@ -8,7 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<title><?php wp_title(''); ?></title>
-	
+
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
 	<?php wp_head(); ?>
@@ -24,9 +24,9 @@
 
 <body <?php body_class(); ?>>
 	<!-- HEADER -->
-	<header>
 
-		<!-- /TOP HEADER -->
+
+	<header>
 
 		<!-- MAIN HEADER -->
 		<div id="header">
@@ -35,36 +35,42 @@
 				<!-- row -->
 				<div class="row">
 					<!-- LOGO -->
-					<div class="col-md-3">
+					<div class="col-sm-3">
 						<div class="header-logo">
-							<a href="#" class="logo">
-								<img src="<?php echo IMAGES_URI; ?>/lo.png" alt="" width="90px">
+							<a href="/" class="logo">
+								<img src="<?php echo IMAGES_URI; ?>/logo.jpg" alt="" width="150px">
 							</a>
 						</div>
-
 					</div>
 					<!-- /LOGO -->
-
-
-					<!-- container -->
-					<div class="container">
-						<!-- responsive-nav -->
-						<div id="responsive-nav">
-							<!-- NAV -->
-							<ul class="main-nav nav navbar-nav">
-								<li class="active"><a href="http://localhost/sshn/furniture/homepage/">Home</a></li>
-								<li><a href="http://localhost/sshn/furniture/about/">About Us</a></li>
-								<li><a href="http://localhost/sshn/furniture/product">Products</a></li>
-								<li><a href="http://localhost/sshn/furniture/contact/">Contact</a></li>
-							</ul>
-							<!-- /NAV -->
-						</div>
-						<!-- /responsive-nav -->
+					<div class="col-sm-9 hidden-xs">
+						<ul class="main-nav nav navbar-nav">
+							<li class="active"><a href="/homepage/">Home</a></li>
+							<li><a href="/about/">About Us</a></li>
+							<li><a href="/product">Products</a></li>
+							<li><a href="/contact/">Contact</a></li>
+						</ul>
 					</div>
-					<!-- /container -->
+					<!-- SEARCH BAR -->
 
-					
+					<!-- /SEARCH BAR -->
 
+					<!-- ACCOUNT -->
+					<div class="col-md-3 clearfix">
+						<div class="header-ctn">
+
+
+							<!-- Menu Toogle -->
+							<div class="menu-toggle">
+								<a href="#">
+									<i class="fa fa-bars"></i>
+									<span>Menu</span>
+								</a>
+							</div>
+							<!-- /Menu Toogle -->
+						</div>
+					</div>
+					<!-- /ACCOUNT -->
 				</div>
 				<!-- row -->
 			</div>
@@ -72,3 +78,24 @@
 		</div>
 		<!-- /MAIN HEADER -->
 	</header>
+	<!-- /HEADER -->
+
+	<!-- NAVIGATION -->
+	<nav id="navigation" class="visible-xs">
+		<!-- container -->
+		<div class="container">
+			<!-- responsive-nav -->
+			<div id="responsive-nav">
+				<!-- NAV -->
+				<ul class="main-nav nav navbar-nav">
+					<li class="active"><a href="/homepage/">Home</a></li>
+					<li><a href="/about/">About Us</a></li>
+					<li><a href="/product">Products</a></li>
+					<li><a href="/contact/">Contact</a></li>
+				</ul>
+				<!-- /NAV -->
+			</div>
+			<!-- /responsive-nav -->
+		</div>
+		<!-- /container -->
+	</nav>
