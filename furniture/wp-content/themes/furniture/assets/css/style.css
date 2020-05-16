@@ -2055,6 +2055,9 @@ textarea.input {
   background: #15161D;
   color     : #B9BABC;
 }
+footer p{
+  color:#fff;
+}
 
 #bottom-footer {
   background: #1E1F29;
