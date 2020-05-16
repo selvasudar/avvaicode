@@ -1,13 +1,13 @@
 <?php
 
-/***Template Name: Homepage */
+
 get_header();
 ?>
 
-<div id="hot-deal" class="section">
-	<!-- container -->
+<section id="hot-deal" class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
 			<div class="col-md-12">
 				<div class="hot-deal">
@@ -43,19 +43,18 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<!-- /row -->
+		
 	</div>
-	<!-- /container -->
-</div>
-<!-- /HOT DEAL SECTION -->
+	
+</section>
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
+
+<section class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
-			<!-- shop -->
+			
 			<div class="col-md-4 col-xs-6">
 				<div class="shop">
 					<div class="shop-img">
@@ -67,9 +66,6 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<!-- /shop -->
-
-			<!-- shop -->
 			<div class="col-md-4 col-xs-6">
 				<div class="shop">
 					<div class="shop-img">
@@ -81,9 +77,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<!-- /shop -->
-
-			<!-- shop -->
+			
 			<div class="col-md-4 col-xs-6">
 				<div class="shop">
 					<div class="shop-img">
@@ -95,38 +89,35 @@ get_header();
 					</div>
 				</div>
 			</div>
-			<!-- /shop -->
+			
 		</div>
-		<!-- /row -->
+		
 	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
+	
+</section>
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
+
+<section class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
 
-			<!-- section title -->
+			
 			<div class="col-md-12">
 				<div class="section-title">
 					<h3 class="title">New Products</h3>
 					
 				</div>
 			</div>
-			<!-- /section title -->
-
-			<!-- Products tab & slick -->
+			
 			<div class="col-md-12">
 				<div class="row">
 					<div class="products-tabs">
-						<!-- tab -->
+						
 						<div id="tab1" class="tab-pane active">
 							<div class="products-slick" data-nav="#slick-nav-1">
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -157,9 +148,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -189,9 +178,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -216,9 +203,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -245,9 +230,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -274,48 +257,44 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
+								
 							</div>
 							<div id="slick-nav-1" class="products-slick-nav"></div>
 						</div>
-						<!-- /tab -->
+						
 					</div>
 				</div>
 			</div>
-			<!-- Products tab & slick -->
+			
 		</div>
-		<!-- /row -->
+		
 	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
+	
+</section>
 
 
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
+<section class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
 
-			<!-- section title -->
+			
 			<div class="col-md-12">
 				<div class="section-title">
 					<h3 class="title">Top selling</h3>
 					
 				</div>
 			</div>
-			<!-- /section title -->
-
-			<!-- Products tab & slick -->
+			
 			<div class="col-md-12">
 				<div class="row">
 					<div class="products-tabs">
-						<!-- tab -->
+						
 						<div id="tab2" class="tab-pane fade in active">
 							<div class="products-slick" data-nav="#slick-nav-2">
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -346,9 +325,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -378,9 +355,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -405,9 +380,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -434,9 +407,7 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
-
-								<!-- product -->
+								
 								<div class="product">
 									<div class="product-img">
 										<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -463,27 +434,26 @@ get_header();
 											cart</button>
 									</div>
 								</div>
-								<!-- /product -->
+								
 							</div>
 							<div id="slick-nav-2" class="products-slick-nav"></div>
 						</div>
-						<!-- /tab -->
+						
 					</div>
 				</div>
 			</div>
-			<!-- /Products tab & slick -->
+			
 		</div>
-		<!-- /row -->
+		
 	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
+	
+</section>
 
-<!-- SECTION -->
-<div class="section">
-	<!-- container -->
+
+<sectiom class="section">
+	
 	<div class="container">
-		<!-- row -->
+		
 		<div class="row">
 			<div class="col-md-4 col-xs-6">
 				<div class="section-title">
@@ -495,7 +465,7 @@ get_header();
 
 				<div class="products-widget-slick" data-nav="#slick-nav-3">
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -506,9 +476,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -519,9 +487,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -532,11 +498,11 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -547,9 +513,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -560,9 +524,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -573,7 +535,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 				</div>
 			</div>
@@ -588,7 +550,7 @@ get_header();
 
 				<div class="products-widget-slick" data-nav="#slick-nav-4">
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -599,9 +561,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -612,9 +572,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -625,11 +583,11 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -640,9 +598,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -653,9 +609,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -666,7 +620,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 				</div>
 			</div>
@@ -683,7 +637,7 @@ get_header();
 
 				<div class="products-widget-slick" data-nav="#slick-nav-5">
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -694,9 +648,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -707,9 +659,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -720,11 +670,11 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 
 					<div>
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -735,9 +685,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -748,9 +696,7 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- /product widget -->
-
-						<!-- product widget -->
+						
 						<div class="product-widget">
 							<div class="product-img">
 								<img src="<?php echo IMAGES_URI; ?>/product05.png" alt="">
@@ -761,17 +707,16 @@ get_header();
 								<h4 class="product-price">450.00<del class="product-old-price">$990.00</del></h4>
 							</div>
 						</div>
-						<!-- product widget -->
+						
 					</div>
 				</div>
 			</div>
 
 		</div>
-		<!-- /row -->
+		
 	</div>
-	<!-- /container -->
-</div>
-<!-- /SECTION -->
+	
+</section>
 
 
 

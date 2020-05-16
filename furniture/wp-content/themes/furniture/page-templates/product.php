@@ -1,18 +1,18 @@
 <?php
-/***Template Name: Product */
+
 	get_header();
 ?>
 
 
 		
 
-		<!-- SECTION -->
-		<div class="section">
-			<!-- container -->
+		
+		<section class="section">
+			
 			<div class="container">
-				<!-- row -->
+				
 				<div class="row">
-					<!-- Product main img -->
+					
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
@@ -36,9 +36,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- /Product main img -->
-
-					<!-- Product thumb imgs -->
+					
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
@@ -62,9 +60,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- /Product thumb imgs -->
-
-					<!-- Product details -->
+					
 					<div class="col-md-5">
 						<div class="product-details">
 							<h2 class="product-name">Lorem Ipsum</h2>
@@ -92,22 +88,18 @@
 
 						</div>
 					</div>
-					<!-- /Product details -->
-
-					<!-- Product tab -->
+					
 					<div class="col-md-12">
 						<div id="product-tab">
-							<!-- product tab nav -->
+							
 							<ul class="tab-nav">
 								<li class="active"><a data-toggle="tab" href="#tab1">Description</a></li>
 								<li><a data-toggle="tab" href="#tab2">Details</a></li>
 								<li><a data-toggle="tab" href="#tab3">Reviews (3)</a></li>
 							</ul>
-							<!-- /product tab nav -->
-
-							<!-- product tab content -->
+							
 							<div class="tab-content">
-								<!-- tab1  -->
+								
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
@@ -115,9 +107,7 @@
 										</div>
 									</div>
 								</div>
-								<!-- /tab1  -->
-
-								<!-- tab2  -->
+								
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
@@ -125,12 +115,10 @@
 										</div>
 									</div>
 								</div>
-								<!-- /tab2  -->
-
-								<!-- tab3  -->
+								
 								<div id="tab3" class="tab-pane fade in">
 									<div class="row">
-										<!-- Rating -->
+										
 										<div class="col-md-3">
 											<div id="rating">
 												<div class="rating-avg">
@@ -212,9 +200,7 @@
 												</ul>
 											</div>
 										</div>
-										<!-- /Rating -->
-
-										<!-- Reviews -->
+										
 										<div class="col-md-6">
 											<div id="reviews">
 												<ul class="reviews">
@@ -276,29 +262,29 @@
 												</ul>
 											</div>
 										</div>
-										<!-- /Reviews -->
+										
 
 										
 									</div>
 								</div>
-								<!-- /tab3  -->
+								
 							</div>
-							<!-- /product tab content  -->
+
 						</div>
 					</div>
-					<!-- /product tab -->
+					
 				</div>
-				<!-- /row -->
+				
 			</div>
-			<!-- /container -->
-		</div>
-		<!-- /SECTION -->
+			
+		</section>
+		
 
-		<!-- Section -->
-		<div class="section">
-			<!-- container -->
+		
+		<section class="section">
+			
 			<div class="container">
-				<!-- row -->
+				
 				<div class="row">
 
 					<div class="col-md-12">
@@ -307,15 +293,11 @@
 						</div>
 					</div>
 
-					<!-- product -->
+					
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
 							<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
-								
-								<!--<div class="product-label">
-									<span class="sale">-30%</span>
-								</div>-->
 							</div>
 							<div class="product-body">
 								<p class="product-category">Category</p>
@@ -334,17 +316,10 @@
 							</div>
 						</div>
 					</div>
-					<!-- /product -->
-
-					<!-- product -->
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
 							<img src="<?php echo IMAGES_URI; ?>/product01.png" alt="">
-							
-								<!--<div class="product-label">
-									<span class="new">NEW</span>
-								</div>-->
 							</div>
 							<div class="product-body">
 								<p class="product-category">Category</p>
@@ -368,11 +343,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- /product -->
-
+					
 					<div class="clearfix visible-sm visible-xs"></div>
-
-					<!-- product -->
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -401,9 +373,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- /product -->
-
-					<!-- product -->
+					
 					<div class="col-md-3 col-xs-6">
 						<div class="product">
 							<div class="product-img">
@@ -427,14 +397,14 @@
 							</div>
 						</div>
 					</div>
-					<!-- /product -->
+					
 
 				</div>
-				<!-- /row -->
+				
 			</div>
-			<!-- /container -->
-		</div>
-		<!-- /Section -->
+			
+		</section>
+		
 <?php
 	get_footer();
 ?>
