@@ -1,4 +1,7 @@
 <?php
+
+
+
 $version_number = "19";
 define('VERSION', $GLOBALS['version_number']);
 // Define Constants
@@ -49,7 +52,8 @@ register_nav_menus(array(
 
 /** Enqueue Scripts **/
 
-function kf_styles(){
+function kf_styles()
+{
 	wp_enqueue_style('kfStyle', STYLES_URI . '/avvaicode.min.css', array(), VERSION);
 }
 
