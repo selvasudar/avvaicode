@@ -1,0 +1,32 @@
+a {
+    color     : #7944a0;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color     : #6b2e9a;
+    transition: all 0.5s;
+}
+
+p {
+    color: #1d2b36;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.grid-wrapper {
+
+    .grid-item {
+        background: #fcf3ff;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #7944a0;
+
+    &:hover {
+        color: #6b2e9a;
+    }
+}

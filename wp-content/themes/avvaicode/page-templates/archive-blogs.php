@@ -5,14 +5,14 @@ Template Name: All Blogs
 get_header();
 ?>
 <div class="container pt-40 pt-md-120 mt-12">
-	
+
 	<?php
 
 	$wp_get_all_posts = new WP_Query(
 		array(
 			'post_type' => 'post',
 			'post_status' => 'publish',
-			'posts_per_page' => '30'
+			'posts_per_page' => '-1'
 		)
 	);
 
@@ -21,16 +21,15 @@ get_header();
 			<!-- the loop -->
 			<?php while ($wp_get_all_posts->have_posts()) : $wp_get_all_posts->the_post(); ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" class="grid-item">
-					<div class="card border-0 shade5">
-						<?php if (!empty(get_the_post_thumbnail(get_the_ID(), array(260, 205)))) {
-							echo get_the_post_thumbnail(get_the_ID(), array(260, 205));
-						} else { ?>
-							<img class="img-fluid border-bottom" src="/static/blog/images/kissflow-blog.jpg" alt="dummy">
-						<?php } ?>
-						<div class="card-body px-20 py-0">
-							<h5 class="mt-32 mb-24"><?php the_title(); ?></h5>
-							<p class=""><?php the_excerpt(); ?></p>
-							<p class="text-uppercase">Continue Reading</p>
+					<div class="card">
+						<?php $thumb_url = wp_get_attachment_url(get_post_thumbnail_id($post->ID), 'full'); ?>
+						<!-- <img class="card-thumb" src="<?php //echo $thumb_url 
+															?>" alt="<?php //the_title(); 
+																		?>" /> -->
+						<img class="card-thumb" src="http://avvaicode.local/wp-content/uploads/2021/06/wordpress-featured-image-not-showing-1024x512-1.png" alt="dummy-img">
+						<div class="card-body">
+							<h5 class="card-title"><?php echo wp_trim_words(get_the_title(), 6, '...'); ?></h5>
+							<p class="card-desc"><?php echo wp_trim_words(get_the_content(), 30, '...'); ?></p>
 						</div>
 					</div>
 				</a>
@@ -39,8 +38,8 @@ get_header();
 
 		<?php else : ?>
 			<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-		<?php endif; 
-			wp_reset_query();
+		<?php endif;
+	wp_reset_query();
 		?>
 		</div>
 </div>

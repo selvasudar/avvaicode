@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@400;500;600;700;800&display=swap');
+    </style>
     <title><?php wp_title(''); ?></title>
     <?php require_once TD_PATH . '/inc/meta_tags_header.php'; ?>
     <?php wp_head(); ?>
@@ -51,3 +53,4 @@
         </div>
 
     </header>
+    <main class="body-main">
