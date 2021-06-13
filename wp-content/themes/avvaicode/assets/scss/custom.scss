@@ -1,5 +1,6 @@
 img {
 	max-width: 100%;
+	height   : auto;
 }
 
 .grid-wrapper {
@@ -30,5 +31,9 @@ img {
 }
 
 .body-main {
-	margin: 20px 0 40px;
+	margin-bottom: 40px;
+}
+
+.author-details {
+	margin: 20px 0 32px;
 }

@@ -4,7 +4,7 @@ Template Name: All Blogs
 */
 get_header();
 ?>
-<div class="container pt-40 pt-md-120 mt-12">
+<div class="container-fluid">
 
 	<?php
 
@@ -29,6 +29,7 @@ get_header();
 						<img class="card-thumb" src="http://avvaicode.local/wp-content/uploads/2021/06/wordpress-featured-image-not-showing-1024x512-1.png" alt="dummy-img">
 						<div class="card-body">
 							<h5 class="card-title"><?php echo wp_trim_words(get_the_title(), 6, '...'); ?></h5>
+							<time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished"><?php echo get_the_date(); ?></time>
 							<p class="card-desc"><?php echo wp_trim_words(get_the_content(), 30, '...'); ?></p>
 						</div>
 					</div>

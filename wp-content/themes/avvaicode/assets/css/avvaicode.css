@@ -20,9 +20,21 @@ p {
   .navbar-light .navbar-nav .nav-link:hover {
     color: #6b2e9a; }
 
+html {
+  font-size: 16px; }
+
 body {
-  font-family: 'Mukta Malar', sans-serif;
-  font-weight: 400; }
+  font-family: 'Hind Madurai', sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Mukta Malar', sans-serif; }
 
 h1 {
   font-weight: 800; }
@@ -33,11 +45,24 @@ h2 {
 h3 {
   font-weight: 600; }
 
-h4, h5, h6, b {
+h4,
+h5,
+h6,
+b {
   font-weight: 500; }
 
+ol li,
+ul li {
+  font-weight: 400;
+  font-size: 1.2rem; }
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.8; }
+
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 .grid-wrapper {
   display: grid;
@@ -58,12 +83,43 @@ img {
       border-radius: 0; }
 
 .body-main {
-  margin: 20px 0 40px; }
+  margin-bottom: 40px; }
+
+.author-details {
+  margin: 20px 0 32px; }
 
 @media (min-width: 768px) {
   .grid-wrapper {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .single-url-list {
+    padding-top: 32px;
+    padding-bottom: 32px; }
+    .single-url-list ul {
+      margin-top: 20px; }
+    .single-url-list a {
+      font-size: 1.1rem; } }
 
 @media (min-width: 992px) {
   .grid-wrapper {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media (max-width: 991px) {
+  html {
+    margin-top: 0 !important; }
+  header {
+    padding: 12px 0; }
+    header .navbar {
+      padding: 0; }
+  #header-menu {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    background: #b931d0;
+    height: 100vh;
+    z-index: 1;
+    transform: translateX(-100%);
+    transition: all 0.5s; }
+    #header-menu.show {
+      transform: translateX(0);
+      transition: all 0.5s; } }
