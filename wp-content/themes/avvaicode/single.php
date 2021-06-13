@@ -4,7 +4,7 @@ get_header();
 <main class="post-template">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-8 order-md-2">
+            <div class="col-12 col-lg-10 col-xl-8 order-lg-2">
                 <div class="row">
                     <div class="col-12 post-title">
                         <h1><?php the_title(); ?></h1>
@@ -17,7 +17,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-2 order-md-1 single-url-list">
+            <div class="col-12 col-lg-2 order-lg-1 single-url-list">
                 <h5>தொடர்புடைய பாடங்கள்</h5>
                 <ul class="list-unstyled">
                     <?php

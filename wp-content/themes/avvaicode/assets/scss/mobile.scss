@@ -2,9 +2,14 @@
     html {
         margin-top: 0 !important;
     }
-    .body-main{
+    body{
+        background-color: #fbe4ff;
+    }
+
+    .main-content {
         padding: 20px 0;
     }
+
     header {
         padding: 12px 0;
 
@@ -27,6 +32,8 @@
         transition      : all 0.5s;
         transform-origin: -50% -50%;
         display         : block;
+        padding-top     : 10px;
+        padding-bottom  : 20px;
 
         &.show {
             transform       : translateX(0);

@@ -81,8 +81,10 @@ img {
     .grid-wrapper .grid-item .card {
       border: none;
       border-radius: 0; }
+  .grid-wrapper .card-desc {
+    margin-top: 10px; }
 
-.body-main {
+.main-content {
   margin-bottom: 40px; }
 
 .author-details {
@@ -106,7 +108,9 @@ img {
 @media (max-width: 991px) {
   html {
     margin-top: 0 !important; }
-  .body-main {
+  body {
+    background-color: #fbe4ff; }
+  .main-content {
     padding: 20px 0; }
   header {
     padding: 12px 0; }
@@ -123,7 +127,9 @@ img {
     transform: translateX(-100%);
     transition: all 0.5s;
     transform-origin: -50% -50%;
-    display: block; }
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px; }
     #header-menu.show {
       transform: translateX(0);
       transition: all 0.5s;

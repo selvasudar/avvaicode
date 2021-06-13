@@ -54,4 +54,4 @@
         </div>
 
     </header>
-    <main class="body-main">
+    <main class="main-content">
