@@ -52,33 +52,33 @@ register_nav_menus(array(
 
 /** Enqueue Scripts **/
 
-function kf_styles()
+function avvai_styles()
 {
-	wp_enqueue_style('kfStyle', STYLES_URI . '/avvaicode.min.css', array(), VERSION);
+	wp_enqueue_style('avvaistyle', STYLES_URI . '/avvaicode.min.css', array(), VERSION);
 }
 
-add_action('wp_enqueue_scripts', 'kf_styles');
+add_action('wp_enqueue_scripts', 'avvai_styles');
 
 
 //add SVG to allowed file uploads
-function add_file_types_to_uploads($file_types)
-{
+// function add_file_types_to_uploads($file_types)
+// {
 
-	$new_filetypes = array();
-	$new_filetypes['svg'] = 'image/svg+xml';
-	$file_types = array_merge($file_types, $new_filetypes);
+// 	$new_filetypes = array();
+// 	$new_filetypes['svg'] = 'image/svg+xml';
+// 	$file_types = array_merge($file_types, $new_filetypes);
 
-	return $file_types;
-}
-add_action('upload_mimes', 'add_file_types_to_uploads');
+// 	return $file_types;
+// }
+// add_action('upload_mimes', 'add_file_types_to_uploads');
 
 //removes next and previous link in all the pages
-add_filter('wpseo_next_rel_link', '__return_false');
-add_filter('wpseo_prev_rel_link', '__return_false');
+// add_filter('wpseo_next_rel_link', '__return_false');
+// add_filter('wpseo_prev_rel_link', '__return_false');
 
 //stops loading contactform 7 plugin assets on all pages
-add_filter('wpcf7_load_js', '__return_false');
-add_filter('wpcf7_load_css', '__return_false');
+// add_filter('wpcf7_load_js', '__return_false');
+// add_filter('wpcf7_load_css', '__return_false');
 // enables loading contactform 7 plugin assets on required pages
 
 //shows avvaicode logo on login page.
