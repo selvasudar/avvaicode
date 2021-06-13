@@ -29,7 +29,7 @@
                     <!-- Navbar -->
                     <nav class="navbar navbar-light">
                         <a class="navbar-brand" href="/"><img src="/logo.png" alt="avvaicode-logo"></a>
-                        <nav class="navbar navbar-expand-lg navbar-light">
+                        <nav class="navbar navbar-expand-lg navbar-light main-menu">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
