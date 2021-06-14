@@ -3,6 +3,10 @@ img {
 	height   : auto;
 }
 
+.logo-fitter {
+	min-width: 250px;
+}
+
 .grid-wrapper {
 	display : grid;
 	grid-gap: 1rem 2rem;
@@ -28,7 +32,8 @@ img {
 			border-radius: 0;
 		}
 	}
-	.card-desc{
+
+	.card-desc {
 		margin-top: 10px;
 	}
 }

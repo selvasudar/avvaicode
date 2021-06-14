@@ -64,6 +64,9 @@ img {
   max-width: 100%;
   height: auto; }
 
+.logo-fitter {
+  min-width: 250px; }
+
 .grid-wrapper {
   display: grid;
   grid-gap: 1rem 2rem; }

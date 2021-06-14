@@ -28,7 +28,7 @@
                 <div class="col-12">
                     <!-- Navbar -->
                     <nav class="navbar navbar-light">
-                        <a class="navbar-brand" href="/"><img src="/logo.png" alt="avvaicode-logo"></a>
+                        <a class="navbar-brand logo-fitter" href="/"><img src="/logo.svg" alt="avvaicode-logo"></a>
                         <nav class="navbar navbar-expand-lg navbar-light main-menu">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-menu">
                                 <span class="navbar-toggler-icon"></span>
