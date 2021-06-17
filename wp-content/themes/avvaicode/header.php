@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ta">
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap');
@@ -13,7 +12,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
     <?php
     global $squad;
     //fetches header and squad value from category

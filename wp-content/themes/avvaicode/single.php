@@ -1,6 +1,16 @@
 <?php
 get_header();
 ?>
+<div class="media-body pl-0 mt-8">
+    <!-- <div class="author-name">
+        <p><?php
+            // $user_id = get_the_author_meta('ID');
+            // echo get_the_author_meta('display_name', $user_id);
+            // echo get_the_author_meta('display_name'); 
+            ?></p>
+    </div> -->
+
+</div>
 <main class="post-template">
     <div class="container-fluid">
         <div class="row">
@@ -11,6 +21,13 @@ get_header();
                     </div>
                     <div class="col-12 author-details">
                         <time datetime="<?php echo get_the_date('c'); ?>" itemprop="datePublished">Published on: <?php echo get_the_date(); ?></time>
+                        <div class="article-details">
+                            <span class="article-date small">Category: </span>
+                            <?php if ('post' === $post->post_type) { ?>
+                                <span class="pl-4 small"><?php the_category(','); ?></span>
+                            <?php } ?>
+
+                        </div>
                     </div>
                     <div class="col-12 post-desc">
                         <?php the_content(); ?>
